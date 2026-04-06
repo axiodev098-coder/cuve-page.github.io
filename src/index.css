@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://media.ffycdn.net/us/octave-hexagon-spin-off/q33PjNw1vdtnEaeXTBCt.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.glass-window {
+    background: rgba(255, 255, 255, 0.062);
+    border-radius: 1rem;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    color: #111;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-window:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.20);
+}
+
+.ventana{
+    opacity: 0.5;
+    background-color: white;
+    blur: 5px;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
