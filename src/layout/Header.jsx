@@ -39,7 +39,7 @@ const Header = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
       >
-        <img className='img-fluid m-3' src="/logo.png" alt="Logo" style={{ width: '250px' }} />
+        <img className='img-fluid m-3' src="./logo.png" alt="Logo" style={{ width: '250px' }} />
       </motion.div>
 
       <nav className="navbar navbar-expand-lg col-7 bg-transparent ">

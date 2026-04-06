@@ -34,7 +34,7 @@ const Hero = () => {
       </motion.div>
       <motion.div className="col-lg-6 col-12 pt-3 pt-lg-0" initial='hidden' animate='visible' variants={heroVariants}>
         <div className='border rounded-4 overflow-hidden shadow'>
-          <Carrousel images={["/carrousel/1.webp", "/carrousel/2.webp", "/carrousel/3.webp", "/carrousel/4.webp"]} space={10} slide={1} delay={3000} />
+          <Carrousel images={["./carrousel/1.webp", "./carrousel/2.webp", "./carrousel/3.webp", "./carrousel/4.webp"]} space={10} slide={1} delay={3000} />
         </div>
       </motion.div>
     </motion.div>
