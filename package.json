@@ -8,12 +8,15 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "optimize-images": "imagemin public/carrousel/*.webp --out-dir=public/carrousel --plugin=webp"
+    "optimize-images": "imagemin public/carrousel/*.webp --out-dir=public/carrousel --plugin=webp",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "framer-motion": "^12.38.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "styled-components": "^6.3.12",
