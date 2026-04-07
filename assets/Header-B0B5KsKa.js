@@ -1,4 +1,4 @@
-import{n as e,s as t,t as n}from"./jsx-runtime-C7M7YA1l.js";import{t as r}from"./index-BxGypkOu.js";import{t as i}from"./proxy-M_Dbya2_.js";var a=t(e(),1),o=n(),s=({checked:e,onChange:t,className:n})=>(0,o.jsx)(c,{className:n,children:(0,o.jsxs)(`div`,{children:[(0,o.jsx)(`input`,{id:`checkbox`,type:`checkbox`,checked:e,onChange:t}),(0,o.jsxs)(`label`,{className:`toggle`,htmlFor:`checkbox`,children:[(0,o.jsx)(`div`,{id:`bar1`,className:`bars`}),(0,o.jsx)(`div`,{id:`bar2`,className:`bars`}),(0,o.jsx)(`div`,{id:`bar3`,className:`bars`})]})]})}),c=r.div`
+import{n as e,s as t,t as n}from"./jsx-runtime-C7M7YA1l.js";import{t as r}from"./index-C6RtW2rL.js";import{t as i}from"./proxy-C5KRZf-i.js";var a=t(e(),1),o=n(),s=({checked:e,onChange:t,className:n})=>(0,o.jsx)(c,{className:n,children:(0,o.jsxs)(`div`,{children:[(0,o.jsx)(`input`,{id:`checkbox`,type:`checkbox`,checked:e,onChange:t}),(0,o.jsxs)(`label`,{className:`toggle`,htmlFor:`checkbox`,children:[(0,o.jsx)(`div`,{id:`bar1`,className:`bars`}),(0,o.jsx)(`div`,{id:`bar2`,className:`bars`}),(0,o.jsx)(`div`,{id:`bar3`,className:`bars`})]})]})}),c=r.div`
   #checkbox {
     display: none;
   }

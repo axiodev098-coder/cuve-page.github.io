@@ -1,4 +1,4 @@
-import{n as e,t}from"./jsx-runtime-C7M7YA1l.js";import{t as n}from"./index-BxGypkOu.js";e();var r=t(),i=({Name:e,link:t})=>(0,r.jsx)(a,{children:(0,r.jsxs)(`a`,{href:t,className:`cta`,target:`_blank`,rel:`noopener noreferrer`,children:[(0,r.jsx)(`span`,{children:e}),(0,r.jsxs)(`svg`,{width:`15px`,height:`10px`,viewBox:`0 0 13 10`,children:[(0,r.jsx)(`path`,{d:`M1,5 L11,5`}),(0,r.jsx)(`polyline`,{points:`8 1 12 5 8 9`})]})]})}),a=n.div`
+import{n as e,t}from"./jsx-runtime-C7M7YA1l.js";import{t as n}from"./index-C6RtW2rL.js";e();var r=t(),i=({Name:e,link:t})=>(0,r.jsx)(a,{children:(0,r.jsxs)(`a`,{href:t,className:`cta`,target:`_blank`,rel:`noopener noreferrer`,children:[(0,r.jsx)(`span`,{className:`text-light service`,children:e}),(0,r.jsxs)(`svg`,{width:`15px`,height:`10px`,viewBox:`0 0 13 10`,children:[(0,r.jsx)(`path`,{d:`M1,5 L11,5`}),(0,r.jsx)(`polyline`,{points:`8 1 12 5 8 9`})]})]})}),a=n.div`
   .cta {
     position: relative;
     margin: auto;
@@ -27,7 +27,7 @@ import{n as e,t}from"./jsx-runtime-C7M7YA1l.js";import{t as n}from"./index-BxGyp
 
   .cta span {
     position: relative;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -71,4 +71,4 @@ import{n as e,t}from"./jsx-runtime-C7M7YA1l.js";import{t as n}from"./index-BxGyp
 
   .cta:active {
     transform: scale(0.95);
-  }`,o=()=>(0,r.jsxs)(`div`,{children:[(0,r.jsx)(`h2`,{className:`text-light text-center margin-auto`,children:`Servicios`}),(0,r.jsx)(`hr`,{className:`text-light border `}),(0,r.jsxs)(`div`,{className:`d-flex flex-column gap-3  `,children:[(0,r.jsx)(i,{Name:`Fotografia`,link:`#`}),(0,r.jsx)(i,{Name:`Video`,link:`#`}),(0,r.jsx)(i,{Name:`Bordados`,link:`#`}),(0,r.jsx)(i,{Name:`Impresiones`,link:`#`}),(0,r.jsx)(i,{Name:`Paginas Web`,link:`#`}),(0,r.jsx)(i,{Name:`Sublimacion`,link:`#`}),(0,r.jsx)(i,{Name:`Grabados laser`,link:`#`})]})]});export{o as default};
+  }`,o=()=>(0,r.jsxs)(`div`,{children:[(0,r.jsx)(`h2`,{className:`text-light text-center margin-auto title`,children:`Servicios`}),(0,r.jsx)(`hr`,{className:`text-light border `}),(0,r.jsxs)(`div`,{className:`d-flex flex-column gap-3  `,children:[(0,r.jsx)(i,{Name:`Fotografia`,link:`#`}),(0,r.jsx)(i,{Name:`Video`,link:`#`}),(0,r.jsx)(i,{Name:`Bordados`,link:`#`}),(0,r.jsx)(i,{Name:`Impresiones`,link:`#`}),(0,r.jsx)(i,{Name:`Paginas Web`,link:`#`}),(0,r.jsx)(i,{Name:`Sublimacion`,link:`#`}),(0,r.jsx)(i,{Name:`Grabados laser`,link:`#`})]})]});export{o as default};
