@@ -6,11 +6,11 @@
   "cover": "/cover.webp",
   "categories": [
     {
-      "id": "bodas",
-      "title": "Bodas",
+      "id": "XvAños",
+      "title": "Xv Años",
       "description": "Eventos especiales",
-      "cover": "/img/bodas-cover.webp",
-      "images": ["/img/1.webp"],
+      "cover": "/img/xv-anos-cover.webp",
+      "images": ["/cuve-page.github.io/Gallery/fotografia/xv/1.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/2.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/3.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/4.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/5.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/6.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/7.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/8.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/9.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/10.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/11.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/12.jpg"],
       "videos": [],
       "featured": true,
       "order": 1
