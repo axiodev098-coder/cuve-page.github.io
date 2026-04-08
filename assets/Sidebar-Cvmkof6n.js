@@ -1,4 +1,4 @@
-import{n as e,t}from"./jsx-runtime-C7M7YA1l.js";import{t as n}from"./index-C6RtW2rL.js";e();var r=t(),i=({Name:e,link:t})=>(0,r.jsx)(a,{children:(0,r.jsxs)(`a`,{href:t,className:`cta`,target:`_blank`,rel:`noopener noreferrer`,children:[(0,r.jsx)(`span`,{className:`text-light service`,children:e}),(0,r.jsxs)(`svg`,{width:`15px`,height:`10px`,viewBox:`0 0 13 10`,children:[(0,r.jsx)(`path`,{d:`M1,5 L11,5`}),(0,r.jsx)(`polyline`,{points:`8 1 12 5 8 9`})]})]})}),a=n.div`
+import{n as e,s as t,t as n}from"./jsx-runtime-C7M7YA1l.js";import{a as r,s as i}from"./chunk-QFMPRPBF-AmHf-bzk.js";var a=t(e(),1),o=n(),s=({Name:e})=>{let t=r();return(0,o.jsx)(c,{children:(0,o.jsxs)(`button`,{onClick:()=>t(`/gallery`,{state:{service:e}}),className:`cta`,children:[(0,o.jsx)(`span`,{className:`text-light service`,children:e}),(0,o.jsxs)(`svg`,{width:`15px`,height:`10px`,viewBox:`0 0 13 10`,children:[(0,o.jsx)(`path`,{d:`M1,5 L11,5`}),(0,o.jsx)(`polyline`,{points:`8 1 12 5 8 9`})]})]})})},c=i.div`
   .cta {
     position: relative;
     margin: auto;
@@ -23,6 +23,7 @@ import{n as e,t}from"./jsx-runtime-C7M7YA1l.js";import{t as n}from"./index-C6RtW
     height: 45px;
     transition: all 0.3s ease;
     z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
   .cta span {
@@ -71,4 +72,4 @@ import{n as e,t}from"./jsx-runtime-C7M7YA1l.js";import{t as n}from"./index-C6RtW
 
   .cta:active {
     transform: scale(0.95);
-  }`,o=()=>(0,r.jsxs)(`div`,{children:[(0,r.jsx)(`h2`,{className:`text-light text-center margin-auto title`,children:`Servicios`}),(0,r.jsx)(`hr`,{className:`text-light border `}),(0,r.jsxs)(`div`,{className:`d-flex flex-column gap-3  `,children:[(0,r.jsx)(i,{Name:`Fotografia`,link:`#`}),(0,r.jsx)(i,{Name:`Video`,link:`#`}),(0,r.jsx)(i,{Name:`Bordados`,link:`#`}),(0,r.jsx)(i,{Name:`Impresiones`,link:`#`}),(0,r.jsx)(i,{Name:`Paginas Web`,link:`#`}),(0,r.jsx)(i,{Name:`Sublimacion`,link:`#`}),(0,r.jsx)(i,{Name:`Grabados laser`,link:`#`})]})]});export{o as default};
+  }`,l=()=>{r();let[e,t]=a.useState([]);return a.useEffect(()=>{fetch(`/cuve-page.github.io/Gallery-data.json`).then(e=>e.json()).then(e=>t(e)).catch(e=>console.error(`Error fetching gallery data:`,e))},[]),(0,o.jsxs)(`div`,{children:[(0,o.jsx)(`h2`,{className:`text-light text-center margin-auto title`,children:`Servicios`}),(0,o.jsx)(`hr`,{className:`text-light border `}),(0,o.jsx)(`div`,{className:`d-flex flex-column gap-3  `,children:e.map((e,t)=>(0,o.jsx)(s,{Name:e.title},t))})]})};export{l as default};
