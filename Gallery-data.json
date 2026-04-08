@@ -14,6 +14,37 @@
       "videos": [],
       "featured": true,
       "order": 1
+    },
+    {
+        "id": "bodas",
+        "title": "Bodas",
+        "description": "Fotografía de bodas",
+        "cover": "/img/bodas-cover.webp",
+        "images": ["/cuve-page.github.io/Gallery/fotografia/bodas/1.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/2.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/3.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/4.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/5.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/6.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/7.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/8.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/9.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/10.jpg"],
+        "videos": [],
+        "featured": true,
+        "order": 2
+    },
+    {
+        "id":"restauraciones",
+        "title":"Restauraciones",
+        "description":"Damos nueva vida a tus fotos antiguas",
+        "cover":"/img/restauraciones-cover.webp",
+        "images":["/cuve-page.github.io/Gallery/fotografia/restauraciones/1.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/2.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/3.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/4.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/5.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/6.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/7.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/8.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/9.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/10.jpg"],
+        "videos": [],   
+        "featured": true,
+        "order": 3
+    },
+    {
+        "id":"escuelas",
+        "title":"Escuelas",
+        "description":"Fotografía de eventos escolares",
+        "cover":"/img/escuelas-cover.webp",
+        "images":["/cuve-page.github.io/Gallery/fotografia/escuelas/1.jpg", "/cuve-page.github.io/Gallery/fotografia/escuelas/2.jpg", "/cuve-page.github.io/Gallery/fotografia/escuelas/3.jpg", "/cuve-page.github.io/Gallery/fotografia/escuelas/4.jpg", "/cuve-page.github.io/Gallery/fotografia/escuelas/5.jpg"],
+        "videos": [],
+        "featured": true,
+        "order": 4
+
     }
   ]
 },
