@@ -29,7 +29,7 @@ const StyledWrapper = styled.div`
     height: 120px;
     width: 100%;
     padding-top: 40px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     justify-content: center;
   }
 

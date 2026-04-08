@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <motion.div className='row align-items-center p-4 rounded-4 shadow-sm glass-window' initial='hidden' animate='visible' variants={heroVariants}>
       <motion.div className="col-lg-6 col-12 justify-content-center d-flex flex-column gap-3 p-4 text-center text-lg-start" initial='hidden' animate='visible' variants={heroVariants}>
-        <h1 className='display-4 fw-bold text-light'>Estudio de Fotografía y Video</h1>
+        <h1 className='display-4 text-light'>Estudio de Fotografía y Video</h1>
         <p className='lead text-light'>
           Capturamos momentos auténticos con luz, emoción y estilo cinematográfico.
           Deja que tu historia brille en cada imagen y transforma lo cotidiano en inolvidable.
@@ -34,7 +34,7 @@ const Hero = () => {
       </motion.div>
       <motion.div className="col-lg-6 col-12 pt-3 pt-lg-0" initial='hidden' animate='visible' variants={heroVariants}>
         <div className='border rounded-4 overflow-hidden shadow'>
-          <Carrousel images={["./carrousel/1.webp", "./carrousel/2.webp", "./carrousel/3.webp", "./carrousel/4.webp"]} space={10} slide={1} delay={3000} />
+          <Carrousel images={["/cuve-page.github.io/carrousel/1.webp", "/cuve-page.github.io/carrousel/2.webp", "/cuve-page.github.io/carrousel/3.webp", "/cuve-page.github.io/carrousel/4.webp"]} space={10} slide={1} delay={3000} />
         </div>
       </motion.div>
     </motion.div>

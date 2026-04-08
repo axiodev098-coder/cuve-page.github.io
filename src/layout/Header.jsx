@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Switch from '../components/Switch'
+import {useNavigate} from 'react-router-dom'
+
 
 const headerVariants = {
   hidden: { opacity: 0, y: -24 },
@@ -13,6 +15,8 @@ const linkVariants = {
 }
 
 const Header = () => {
+  const navigate = useNavigate();
+
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
 
@@ -25,10 +29,10 @@ const Header = () => {
   }, []);
 
   const navigation = [
-    { label: 'Home', href: '#' },
-    { label: 'Features', href: '#' },
-    { label: 'Pricing', href: '#' },
-    { label: 'Disabled', href: '#' }
+    { label: 'Home', href: '/' },
+    { label: 'Features', href: '/features' },
+    { label: 'Pricing', href: '/pricing' },
+    { label: 'Disabled', href: '/disabled' }
   ]
 
   return (
@@ -39,14 +43,14 @@ const Header = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
       >
-        <img className='img-fluid m-3' src="./logo.png" alt="Logo" style={{ width: '250px' }} />
+        <img className='img-fluid m-3' src="/cuve-page.github.io/logo.png" alt="Logo" style={{ width: '250px' }} />
       </motion.div>
 
       <nav className="navbar navbar-expand-lg col-7 bg-transparent ">
         <div className="container-fluid d-flex justify-content-end">
           {isMobile && <Switch checked={isOpen} onChange={() => setIsOpen(!isOpen)} />}
           <div className={`collapse navbar-collapse ${!isMobile || isOpen ? 'show' : ''}`} id="navbarNav">
-            <ul className="navbar-nav ">
+            <ul className="navbar-nav nav">
               {navigation.map((item, index) => (
                 <motion.li
                   key={item.label}
@@ -56,7 +60,7 @@ const Header = () => {
                   initial="hidden"
                   animate="visible"
                 >
-                  <a className="nav-link text-white" href={item.href}>
+                  <a className="nav-link text-white" onClick={() => navigate(item.href)}>
                     {item.label}
                   </a>
                 </motion.li>

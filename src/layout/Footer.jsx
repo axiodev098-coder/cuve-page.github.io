@@ -5,18 +5,18 @@ const Footer = () => {
     <footer className="glass-window rounded-4 shadow-sm p-4 mt-4">
       <div className="row gy-4">
         <div className="col-md-4 col-12">
-          <img src="./logo.png" alt="Logo" className="img-fluid" style={{maxWidth:"200px"}} />
+          <img src="/cuve-page.github.io/logo.png" alt="Logo" className="img-fluid" style={{maxWidth:"200px"}} />
           <p className="text-light opacity-75">
             Momentos auténticos en cada imagen. Sesiones de boda, retrato, eventos y branding con estilo cinematográfico.
           </p>
         </div>
         <div className="col-md-4 col-12">
-          <h6 className="text-white fw-bold">Enlaces rápidos</h6>
+          <h6 className="text-white fw-bold">Contenido</h6>
           <ul className="list-unstyled">
-            <li><a className="text-light text-decoration-none" href="#">Inicio</a></li>
-            <li><a className="text-light text-decoration-none" href="#">Servicios</a></li>
-            <li><a className="text-light text-decoration-none" href="#">Portafolio</a></li>
-            <li><a className="text-light text-decoration-none" href="#">Contacto</a></li>
+            <li className="text-light text-decoration-none">Inicio</li>
+            <li className="text-light text-decoration-none">Servicios</li>
+            <li className="text-light text-decoration-none">Portafolio</li>
+            <li className="text-light text-decoration-none">Contacto</li>
           </ul>
         </div>
         <div className="col-md-4 col-12">

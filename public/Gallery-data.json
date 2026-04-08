@@ -1,0 +1,74 @@
+[
+ {
+  "id": "fotografia",
+  "title": "Fotografía",
+  "description": "Capturamos momentos...",
+  "cover": "/cover.webp",
+  "categories": [
+    {
+      "id": "bodas",
+      "title": "Bodas",
+      "description": "Eventos especiales",
+      "cover": "/img/bodas-cover.webp",
+      "images": ["/img/1.webp"],
+      "videos": [],
+      "featured": true,
+      "order": 1
+    }
+  ]
+},
+    {
+    "id": "diseño",
+    "title": "Diseño",
+    "description": "Creamos diseños...",
+    "cover": "/cover.webp",
+    "categories": [
+        {
+        "id": "logos",
+        "title": "Logos",
+        "description": "Diseño de logotipos",
+        "cover": "/img/logos-cover.webp",
+        "images": ["/img/2.webp"],
+        "videos": [],
+        "featured": true,
+        "order": 1
+        }
+    ]
+    },
+    {
+    "id": "video",
+    "title": "Video",
+    "description": "Contamos historias a través del video...",
+    "cover": "/cover.webp",
+    "categories": [
+        {
+        "id": "eventos",
+        "title": "Eventos",
+        "description": "Cobertura de eventos",
+        "cover": "/img/eventos-cover.webp",
+        "images": ["/img/3.webp"],
+        "videos": [],
+        "featured": true,
+        "order": 1
+        }
+    ]
+    },
+    {
+    "id":"sublimacion",
+    "title":"Sublimación",
+    "description":"Personalizamos tus productos...",
+    "cover":"/cover.webp",
+    "categories":[
+        {
+            "id":"camisetas",
+            "title":"Camisetas",
+            "description":"Diseños personalizados en camisetas",
+            "cover":"/img/camisetas-cover.webp",
+            "images":["/img/4.webp"],
+            "videos":[],
+            "featured":true,
+            "order":1
+        }
+    ]
+    }
+]
