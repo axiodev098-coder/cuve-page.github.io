@@ -91,3 +91,11 @@ img {
   height: 100%;
   border-radius: 12px;
 }
+
+.im {
+  transition: transform 0.3s ease-in-out;
+}
+
+.im:hover {
+  transform: scale(1.05);
+}

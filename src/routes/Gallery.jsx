@@ -1,14 +1,18 @@
 import { useLocation } from "react-router-dom";
 import React from "react";
+import { useState } from "react";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import { motion } from "framer-motion";
 import SwiperSlider from "../components/SwiperSlider";
+import ListImages from "../components/List-images";
+import BasicModal from "../components/Modal";
 
 const Gallery = () => {
   const [data, setData] = React.useState([]);
   const location = useLocation();
   const service = location.state?.service; // título del servicio desde Sidebar
+  const [selectedImages, setSelectedImages] = useState([]);
 
   React.useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}Gallery-data.json`)
@@ -26,6 +30,7 @@ const Gallery = () => {
   const sliderImages = filteredService
     ? filteredService.categories.flatMap((cat) => cat.images || [])
     : [];
+  const [open, setOpen] = useState(false);
 
   return (
     <>
@@ -41,7 +46,6 @@ const Gallery = () => {
             {filteredService ? filteredService.title : "Galería"}
           </h2>
 
-          {sliderImages.length > 0 && <SwiperSlider images={sliderImages} />}
 
           <div className="gallery row d-flex justify-content-center gap-3 p-4">
             {filteredService?.categories.map((cat, index) => (
@@ -52,11 +56,20 @@ const Gallery = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1, duration: 0.5 }}
               >
+                <BasicModal open={open} onClose={() => setOpen(false)}>
+  <ListImages images={selectedImages} />
+</BasicModal>
                 {cat.images[0] && (
                   <img
                     src={cat.images[0]}
                     alt={cat.title || cat.name}
-                    className="img-fluid"
+                    className="img-fluid im rounded"
+                    style={{ cursor: "pointer",width:"100%", height:"400px", objectFit:"cover"  }}
+
+                    onClick={() => {
+                      setSelectedImages(cat.images);
+                      setOpen(true);
+                    }}
                   />
                 )}
                 <div className="gallery-info p-2">
