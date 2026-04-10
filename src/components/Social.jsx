@@ -7,15 +7,15 @@ const Button = () => {
       <ul className="wrapper">
         <li className="icon facebook">
           <span className="tooltip">Facebook</span>
-          <i className="bi bi-facebook" style={{ fontSize: '1.2em' }}></i>
+          <i className="bi bi-facebook" style={{ fontSize: '1.2em' }} onClick={() => window.open('https://www.facebook.com', '_blank')}></i>
         </li>
         <li className="icon whatsapp">
           <span className="tooltip">WhatsApp</span>
-          <i className="bi bi-whatsapp" style={{ fontSize: '1.2em' }}></i>
+          <i className="bi bi-whatsapp" style={{ fontSize: '1.2em' }} onClick={() => window.open('https://wa.me/1234567890', '_blank')}></i>
         </li>
         <li className="icon instagram">
           <span className="tooltip">Instagram</span>
-          <i className="bi bi-instagram" style={{ fontSize: '1.2em' }}></i>
+          <i className="bi bi-instagram" style={{ fontSize: '1.2em' }} onClick={() => window.open('https://www.instagram.com', '_blank')}></i>
         </li>
       </ul>
     </StyledWrapper>

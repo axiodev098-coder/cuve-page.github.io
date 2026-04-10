@@ -36,7 +36,7 @@ const Header = () => {
   ]
 
   return (
-    <motion.div className="glass-window row d-flex align-items-center text-white" variants={headerVariants} initial="hidden" animate="visible">
+    <motion.div className="header glass-window row d-flex align-items-center text-white" variants={headerVariants} initial="hidden" animate="visible">
       <motion.div
         className="logo col-5"
         initial={{ opacity: 0, scale: 0.94 }}

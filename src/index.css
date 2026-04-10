@@ -99,3 +99,29 @@ img {
 .im:hover {
   transform: scale(1.05);
 }
+
+.cerrar{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  font-size: xxx-large;
+  background-color: transparent;
+  color: rgba(255, 0, 0, 0.479);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.795);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+.cerrar:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 1, 1, 0.705);
+  border-radius: 10px;
+}
+
+.sidebar{
+  position:sticky;
+  top: 0;
+  left: 0;
+}

@@ -6,6 +6,7 @@ export default function ListImages({ images = [] }) {
     console.log("ListImages render with images:", images);
   return (
     <Box sx={{ width: '90vw', height: 800, overflowY: 'scroll' }}>
+      
       <ImageList variant="masonry" cols={3} gap={8}>
         {images.map((item,index) => (
           <ImageListItem key={index}>

@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import SwiperSlider from "../components/SwiperSlider";
 import ListImages from "../components/List-images";
 import BasicModal from "../components/Modal";
+import Sidebar from "../layout/Sidebar";
 
 const Gallery = () => {
   const [data, setData] = React.useState([]);
@@ -41,7 +42,7 @@ const Gallery = () => {
       </div>
 
       <div className="row d-flex gap-3">
-        <div className="col-12 rounded glass-window shadow mb-3">
+        <div className="col-10 rounded glass-window shadow mb-3">
           <h2 className="text-light text-center p-4">
             {filteredService ? filteredService.title : "Galería"}
           </h2>
@@ -81,6 +82,9 @@ const Gallery = () => {
               </motion.div>
             ))}
           </div>
+        </div>
+        <div className="col rounded glass-window shadow mb-3">
+          <Sidebar />
         </div>
       </div>
 

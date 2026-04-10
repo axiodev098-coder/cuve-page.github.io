@@ -16,10 +16,16 @@ const style = {
 
 export default function BasicModal({ open, onClose, children }) {
   return (
+    <>
+    
     <Modal open={open} onClose={onClose}>
       <Box sx={style}>
+        <button onClick={onClose} className="cerrar">
+          X
+        </button>
         {children}
       </Box>
     </Modal>
+    </>
   );
 }

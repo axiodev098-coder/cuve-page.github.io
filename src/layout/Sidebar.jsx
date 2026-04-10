@@ -14,7 +14,7 @@ const Sidebar = () => {
       .catch((error) => console.error("Error fetching gallery data:", error));
   }, []);
   return (
-    <div>
+    <div className='sidebar d-flex flex-column gap-4 p-4' >
         <h2 className='text-light text-center margin-auto title'>Servicios</h2>
         <hr className='text-light border '/>
         <div className='d-flex flex-column gap-3  '>
