@@ -2,13 +2,13 @@
  {
   "id": "fotografia",
   "title": "Fotografía",
-  "description": "Capturamos momentos...",
+  "description": "Capturamos momentos especiales con calidad excepcional.",
   "cover": "/cover.webp",
   "categories": [
     {
       "id": "XvAños",
       "title": "Xv Años",
-      "description": "Eventos especiales",
+      "description": "Sesiones forograficas para fiestas de 15 años, capturamos la esencia de este momento tan especial con calidad excepcional y creatividad única.",
       "cover": "/img/xv-anos-cover.webp",
       "images": ["/cuve-page.github.io/Gallery/fotografia/xv/1.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/2.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/3.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/4.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/5.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/6.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/7.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/8.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/9.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/10.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/11.jpg", "/cuve-page.github.io/Gallery/fotografia/xv/12.jpg"],
       "videos": [],
@@ -18,7 +18,7 @@
     {
         "id": "bodas",
         "title": "Bodas",
-        "description": "Fotografía de bodas",
+        "description": "Sesiones de bodas con calidad unica para capturar el dia mas feliz de tu vida, con creatividad y profesionalismo para crear recuerdos inolvidables.",
         "cover": "/img/bodas-cover.webp",
         "images": ["/cuve-page.github.io/Gallery/fotografia/bodas/1.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/2.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/3.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/4.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/5.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/6.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/7.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/8.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/9.jpg", "/cuve-page.github.io/Gallery/fotografia/bodas/10.jpg"],
         "videos": [],
@@ -28,7 +28,7 @@
     {
         "id":"restauraciones",
         "title":"Restauraciones",
-        "description":"Damos nueva vida a tus fotos antiguas",
+        "description":"Damos nueva vida a tus fotos antiguas con nuestro servicio de restauración fotográfica, devolviendo el brillo y la claridad a tus recuerdos más preciados.",
         "cover":"/img/restauraciones-cover.webp",
         "images":["/cuve-page.github.io/Gallery/fotografia/restauraciones/1.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/2.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/3.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/4.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/5.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/6.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/7.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/8.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/9.jpg", "/cuve-page.github.io/Gallery/fotografia/restauraciones/10.jpg"],
         "videos": [],   
@@ -38,7 +38,7 @@
     {
         "id":"escuelas",
         "title":"Escuelas",
-        "description":"Fotografía de eventos escolares",
+        "description":"Fotografía de eventos escolares y paquetes de graduaciones completos, personalizados a tu gusto destacando tus mayores logros académicos y momentos especiales.",
         "cover":"/img/escuelas-cover.webp",
         "images":["/cuve-page.github.io/Gallery/fotografia/escuelas/1.jpg", "/cuve-page.github.io/Gallery/fotografia/escuelas/2.jpg", "/cuve-page.github.io/Gallery/fotografia/escuelas/3.jpg", "/cuve-page.github.io/Gallery/fotografia/escuelas/4.jpg", "/cuve-page.github.io/Gallery/fotografia/escuelas/5.jpg"],
         "videos": [],
@@ -49,15 +49,15 @@
   ]
 },
     {
-    "id": "diseño",
-    "title": "Diseño",
-    "description": "Creamos diseños...",
-    "cover": "/cover.webp",
+    "id": "Bordados",
+    "title": "Bordados",
+    "description": "Personalizamos tus prendas con bordados de alta calidad, creando diseños únicos y duraderos que reflejan tu estilo y personalidad.",
+    "cover": "/cover.webp", 
     "categories": [
         {
         "id": "logos",
         "title": "Logos",
-        "description": "Diseño de logotipos",
+        "description": "Diseño de logotipos personalizados para tu marca, con bordados de alta calidad que reflejan tu identidad y profesionalismo.",
         "cover": "/img/logos-cover.webp",
         "images": ["/img/2.webp"],
         "videos": [],
@@ -69,7 +69,7 @@
     {
     "id": "video",
     "title": "Video",
-    "description": "Contamos historias a través del video...",
+    "description": "Contamos historias a través de videos de alta calidad, capturando momentos especiales con creatividad y profesionalismo para crear recuerdos inolvidables.",
     "cover": "/cover.webp",
     "categories": [
         {
@@ -91,15 +91,113 @@
     "cover":"/cover.webp",
     "categories":[
         {
-            "id":"camisetas",
-            "title":"Camisetas",
-            "description":"Diseños personalizados en camisetas",
-            "cover":"/img/camisetas-cover.webp",
-            "images":["/img/4.webp"],
+            "id":"Tazas",
+            "title":"Tazas",
+            "description":"Diseños personalizados en tazas",
+            "cover":"/img/tazas-cover.webp",
+            "images":["https://i.pinimg.com/736x/98/69/5e/98695e2b862da3c87172701d3d5a5847.jpg","https://i.pinimg.com/736x/2a/96/77/2a967764667d5c02c8aeb8fd3711e6e4.jpg","https://i.pinimg.com/736x/be/7e/90/be7e90fcab0ccf3c81b432d3562e9aaf.jpg","https://i.pinimg.com/736x/c0/39/ca/c039ca82131a0174059515c43cc241bd.jpg","https://i.pinimg.com/1200x/60/0c/d7/600cd7cb784b1486e491cbcebe1812f8.jpg","https://i.pinimg.com/736x/09/78/fd/0978fd004da8c5267680eda42cfa28e7.jpg","https://i.pinimg.com/736x/60/cd/62/60cd625dd1f05af57cf18881f531ce40.jpg","https://i.pinimg.com/1200x/c7/76/f6/c776f665ebddcbceba817a77f6d1282c.jpg"],
             "videos":[],
             "featured":true,
             "order":1
+        },
+        {
+            "id":"Llaveros",
+            "title":"llaveros",
+            "description":"Diseños personalizados en llaveros",
+            "cover":"/img/llaveros-cover.webp",
+            "images":["https://i.pinimg.com/736x/cf/62/a1/cf62a14c6dfdb5cdea887bde4b402ff1.jpg","https://i.pinimg.com/1200x/08/77/d4/0877d4557ea04bdc03719ae7db18b09b.jpg","https://i.pinimg.com/1200x/5e/b7/49/5eb749cc247cb194756cbd4d89ca0a10.jpg","https://i.pinimg.com/736x/2d/73/5f/2d735f9d9efae5cc20c93edb0eaf8b8e.jpg"],
+            "videos":[],
+            "featured":true,
+            "order":2
+        },
+        {
+            "id":"Playeras",
+            "title":"Playeras",
+            "description":"Diseños personalizados en playeras",
+            "cover":"/img/playeras-cover.webp",
+            "images":["https://i.pinimg.com/736x/a0/82/6a/a0826ad03890609ac3e7a11e2b1083b9.jpg","https://i.pinimg.com/1200x/96/65/1d/96651d3f754cc327b956f5687a02e737.jpg","https://i.pinimg.com/736x/e2/42/6a/e2426abb5e802f243fbb7ff86c7a6f3e.jpg","https://i.pinimg.com/1200x/ab/7f/bd/ab7fbd33e93294c0e2beca9abd9940e0.jpg"],
+            "videos":[],
+            "featured":true,
+            "order":3
         }
     ]
     }
+    ,
+    {
+    "id":"Invitaciones",
+    "title":"Invitaciones",
+    "description":"Personalizamos tus invitaciones...",
+    "cover":"/cover.webp",
+    "categories":[
+        {
+            "id":"Cumpleaños",
+            "title":"Cumpleaños",
+            "description":" Diseños personalizados en invitaciones de cumpleaños",
+            "cover":"/img/invitaciones-cover.webp",
+            "images":["https://i.pinimg.com/736x/c9/a7/e7/c9a7e7f55d78816dac4560584b9f2d42.jpg","https://i.pinimg.com/1200x/c2/ef/66/c2ef66eaeddc0cfeb38a6034298d6fed.jpg","https://i.pinimg.com/736x/1c/b9/46/1cb946c53538e1c1f0bd41cd712d4f8a.jpg","https://i.pinimg.com/1200x/aa/b6/70/aab670416cdf3ae40a526ac190a4cc15.jpg",""],
+            "videos":[],
+            "featured":true,
+            "order":1
+        },
+            {
+                "id":"Bodas",
+                "title":"Bodas",
+                "description":"Diseños personalizados en invitaciones de bodas",
+                "cover":"/img/invitaciones-cover.webp",
+                "images":["https://i.pinimg.com/1200x/b3/56/59/b3565905a7d1a8034d5914947412de92.jpg","https://i.pinimg.com/1200x/16/10/41/16104178ca83a4cb8d358a05cea0f970.jpg","https://i.pinimg.com/736x/f9/f0/90/f9f0909192f8a75f9b643ad3b927767e.jpg","https://i.pinimg.com/1200x/4d/b1/6d/4db16d79813a72cd7e61f81847408504.jpg"],
+                "videos":[],
+                "featured":true,
+                "order":2
+            },
+            {
+                "id":"XV",
+                "title":"XV Años",
+                "description":"Diseños personalizados en invitaciones de XV años",
+                "cover":"/img/invitaciones-cover.webp",
+                "images":["https://i.pinimg.com/736x/05/9f/91/059f91a2a15b488067df168f41f61722.jpg","https://i.pinimg.com/1200x/7f/94/26/7f9426000329761df5b2d42571fc3451.jpg","https://i.pinimg.com/1200x/16/28/77/1628778a6cb79de0ea000a6b1a3b2de2.jpg","https://i.pinimg.com/1200x/d9/fc/f7/d9fcf7b4f1401d6cf5ecf7fa7933b088.jpg","https://i.pinimg.com/1200x/f7/89/e1/f789e11155bdfa80dabec2bbac1c5d16.jpg","https://i.pinimg.com/736x/c4/70/37/c47037ad1b8a387e29081faf7b127632.jpg","https://i.pinimg.com/736x/a4/d7/4d/a4d74d28dcef45ffb342b6aeeea0b62f.jpg"],
+                "videos":["https://pin.it/4iPaFUPc0"],
+                "featured":true,
+                "order":3
+            },
+            {
+                "id":"Empresariales",
+                "title":"Empresariales",
+                "description":"Diseños personalizados en invitaciones empresariales",
+                "cover":"/img/invitaciones-cover.webp",
+                "images":["https://i.pinimg.com/1200x/22/17/3a/22173a160afacebe7b130cb0d3083ddd.jpg","https://i.pinimg.com/1200x/00/4b/da/004bda0f2d2aaa11539c03877d6faf79.jpg","https://i.pinimg.com/1200x/9d/4e/28/9d4e283a21c760208507398856c6edf8.jpg","https://i.pinimg.com/736x/12/01/a6/1201a65d50d2d1c4f9da4e6a9a4a3bad.jpg","https://i.pinimg.com/736x/dc/a1/99/dca1991243d0db3292905cac0ed07cda.jpg"],
+                "videos":[],
+                "featured":true,
+                "order":4
+            },
+            {
+                "id":"Digitales",
+                "title":"Digitales",
+                "description":"Diseños personalizados en invitaciones para eventos de todo timpo en formato digital",
+                "cover":"/img/invitaciones-cover.webp",
+                "images":["https://i.pinimg.com/736x/f1/03/31/f103310abe9646da874f7f88ccad138e.jpg","https://i.pinimg.com/736x/89/b5/cf/89b5cfb6a57836aa6a58c986c1b66fb5.jpg","https://i.pinimg.com/736x/53/24/e2/5324e280eb5e2dcd957e4ae9d24bf5a6.jpg","https://i.pinimg.com/1200x/a4/91/1a/a4911a2019dfaa1053620385da0d4b4d.jpg","https://i.pinimg.com/736x/b2/d9/f6/b2d9f6f09bad496da1be6529fb7cc51c.jpg"],
+                "videos":[],
+                "featured":true,
+                "order":5
+            }
+    ]
+    },
+        {
+        "id":"Otros",
+        "title":"Otros",
+        "description":"Otros servicios personalizados para tus eventos y necesidades, con creatividad y profesionalismo para crear recuerdos inolvidables.",
+        "cover":"/cover.webp",
+        "categories":[
+            {
+                "id":"Personalizados",
+                "title":"Personalizados",
+                "description":"Servicios personalizados para tus eventos y necesidades, con creatividad y profesionalismo para crear recuerdos inolvidables.",
+                "cover":"/img/personalizados-cover.webp",
+                "images":["images/5.webp"],
+                "videos":[],
+                "featured":true,
+                "order":1
+            }
+        ]
+         }
+    
 ]
