@@ -4,16 +4,16 @@ import styled from 'styled-components';
 const PhotoCarousel3D = () => {
   // Array con tus imágenes - Reemplaza estas URLs con tus fotos reales
   const images = [
-    'https://images.pexels.com/photos/1730877/pexels-photo-1730877.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/3184394/pexels-photo-3184394.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/2387416/pexels-photo-2387416.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://cuve.zenfolio.com/img/s/v-10/p3368296076-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p3502303896-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p3631091442-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p1271127910-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p1271128001-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p1318101683-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p619815332-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p561583337-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p424548024-3.jpg',
+    'https://cuve.zenfolio.com/img/s/v-10/p385370165-3.jpg',
   ];
 
   const quantity = images.length;
@@ -47,6 +47,7 @@ const PhotoCarousel3D = () => {
 
 const StyledWrapper = styled.div`
   .wrapper {
+    max-width: 100vw;
     width: 100%;
     height: 100%;
     min-height: 750px;
@@ -130,6 +131,7 @@ const StyledWrapper = styled.div`
   /* Responsive */
   @media (max-width: 768px) {
     .inner {
+      max-width: 100vw;
       --w: 100px;
       --h: 140px;
     }

@@ -182,7 +182,7 @@ const Main = () => {
         
         <motion.div className="col-6 col-md-3" variants={cards}>
           <div className="p-3">
-            <h3 className="display-4 fw-bold text-success">8+</h3>
+            <h3 className="display-4 fw-bold text-success">40+</h3>
             <p className="text-light text-uppercase small">Años de Experiencia</p>
           </div>
         </motion.div>
@@ -204,7 +204,7 @@ const Main = () => {
         variants={parent}
       >
         <div className="col-12">
-          <h2 className='text-light text-center fs-1 mb-4'>Proyectos recientes</h2>
+          <h2 className='text-light text-center fs-1 mb-4'>Proyectos Destacados</h2>
         </div>
         
         {/* Imagen 1 - Retrato */}

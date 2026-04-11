@@ -30,7 +30,7 @@ const Header = () => {
 
   const navigation = [
     { label: 'Home', href: '/' },
-    { label: 'Features', href: '/features' },
+    { label: 'Sesiones', href: '/Sesiones' },
     { label: 'Pricing', href: '/pricing' },
     { label: 'Disabled', href: '/disabled' }
   ]
